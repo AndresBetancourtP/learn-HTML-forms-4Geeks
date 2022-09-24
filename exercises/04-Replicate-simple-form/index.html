@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>4Geeks Academy</title>
-</head>
-<body>
-<form>
-<!-- your code here -->
-</form>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+	</head>
+	<body>
+		<form>
+			<!-- your code here -->
+			<table width="30%" border="1px" align="center">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Value</th>
+					</tr>
+					<tr>
+						<th>Name</th>
+						<th><input type="text" name="nombre" /></th>
+					</tr>
+					<tr>
+						<th>Sex</th>
+						<th><input type="radio" name="sex" value="Male" /> Male <br /><input type="radio" name="sex" value="Female" /> Female</th>
+					</tr>
+					<tr>
+						<th>Eye color</th>
+						<th>
+							<select id="cars" name="cars">
+								<option value="Verdes">Verdes</option>
+								<option value="Negros">Negros</option>
+								<option value="Azules">Azules</option>
+								<option value="Marroes">Marroes</option>
+							</select>
+						</th>
+					</tr>
+					<tr>
+						<th>Checj all that apply</th>
+						<th>
+							<input type="checkbox" id="selec1" name="selec1" value="over6" />
+							<label for="selec1"> Over 6 feet tall</label><br />
+							<input type="checkbox" id="selec2" name="selec2" value="over200" />
+							<label for="selec2"> Over 200 pounds</label>
+						</th>
+					</tr>
+				</thead>
+			</table>
+		</form>
+	</body>
 </html>
